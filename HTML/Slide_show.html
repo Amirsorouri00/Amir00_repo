@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script type="text/javascript">
+
+var image1 = new image();
+image1.src="../../Pictures/Camera Roll/WIN_20151204_174446 (2).JPG";
+var image3 = new image();
+image3.src="../../Pictures/Camera Roll/20150818_095241.jpg";
+var image2 = new image();
+image2.src="../../Pictures/Camera Roll/WIN_20151121_120252.JPG";
+ 
+</script>
+</head>
+<body>
+<img src="../../Pictures/Camera Roll/WIN_20151204_174446 (2).JPG" name="slide" width="716" height="715" alt="nike">
+<script type="text/javascript">
+var step = 1;
+function slideit(){
+doument.images.slide.src=eval("image"+step+".src");
+if(step<3)
+step++;
+else
+step=1;
+setTimeout("slideit()",2500);
+}
+slideit();
+</script>
+</body>
+</html>

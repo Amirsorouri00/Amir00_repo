@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+<head>
+
+    <!--Hello every body.i'm practicing how to use comments in html.Just for sure:)-->
+    <!--There is some default valuse defined in CSS for each heading ranged between 1 to 6.
+        below is the default values defined in CSS for <h5> tag.in every browser you can see this default values.
+        and every one can set them personally in his code. -->
+    <style>
+        h5 {
+            margin-left: 0;
+            display: block;
+            margin-right: 0;
+            font-size: .83em;
+            font-weight: bold;
+            margin-top: 1.67em;
+            margin-bottom: 1.67em;
+        }
+
+    </style>
+
+    <style>
+
+        .loader1 {
+	font-size: 20px;
+	margin: 100px auto;
+	width: 1em;
+	height: 1em;
+	border-radius: 20;
+	position: relative;
+	text-indent: -9999em;
+	-webkit-animation: load4 1.3s infinite linear;
+	animation: load4 1.3s infinite linear;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	align-content: flex-start;
+	alignment-adjust: text-after-edge;
+	vertical-align: text-top;
+        }
+
+        @-webkit-keyframes load4 {
+            0%, 100% {
+                box-shadow: 0 -3em 0 0.2em #f00, 2em -2em 0 0em #f00, 3em 0 0 -1em #f00, 2em 2em 0 -1em #f00, 0 3em 0 -1em #f00, -2em 2em 0 -1em #f00, -3em 0 0 -1em #f00, -2em -2em 0 0 #f00;
+            }
+
+            12.5% {
+                box-shadow: 0 -3em 0 0 #f00, 2em -2em 0 0.2em #f00, 3em 0 0 0 #f00, 2em 2em 0 -1em #f00, 0 3em 0 -1em #f00, -2em 2em 0 -1em #f00, -3em 0 0 -1em #f00, -2em -2em 0 -1em #f00;
+            }
+
+            25% {
+                box-shadow: 0 -3em 0 -0.5em #f00, 2em -2em 0 0 #f00, 3em 0 0 0.2em #f00, 2em 2em 0 0 #f00, 0 3em 0 -1em #f00, -2em 2em 0 -1em #f00, -3em 0 0 -1em #f00, -2em -2em 0 -1em #f00;
+            }
+
+            37.5% {
+                box-shadow: 0 -3em 0 -1em #f00, 2em -2em 0 -1em #f00, 3em 0em 0 0 #f00, 2em 2em 0 0.2em #f00, 0 3em 0 0em #f00, -2em 2em 0 -1em #f00, -3em 0em 0 -1em #f00, -2em -2em 0 -1em #f00;
+            }
+
+            50% {
+                box-shadow: 0 -3em 0 -1em #f00, 2em -2em 0 -1em #f00, 3em 0 0 -1em #f00, 2em 2em 0 0em #f00, 0 3em 0 0.2em #f00, -2em 2em 0 0 #f00, -3em 0em 0 -1em #f00, -2em -2em 0 -1em #f00;
+            }
+
+            62.5% {
+                box-shadow: 0 -3em 0 -1em #f00, 2em -2em 0 -1em #f00, 3em 0 0 -1em #f00, 2em 2em 0 -1em #f00, 0 3em 0 0 #f00, -2em 2em 0 0.2em #f00, -3em 0 0 0 #f00, -2em -2em 0 -1em #f00;
+            }
+
+            75% {
+                box-shadow: 0em -3em 0 -1em #f00, 2em -2em 0 -1em #f00, 3em 0em 0 -1em #f00, 2em 2em 0 -1em #f00, 0 3em 0 -1em #f00, -2em 2em 0 0 #f00, -3em 0em 0 0.2em #f00, -2em -2em 0 0 #f00;
+            }
+
+            87.5% {
+                box-shadow: 0em -3em 0 0 #f00, 2em -2em 0 -1em #f00, 3em 0 0 -1em #f00, 2em 2em 0 -1em #f00, 0 3em 0 -1em #f00, -2em 2em 0 0 #f00, -3em 0em 0 0 #f00, -2em -2em 0 0.2em #f00;
+            }
+        }
+
+        @keyframes load4 {
+            0%, 100% {
+                box-shadow: 0 -3em 0 0.2em #f00, 2em -2em 0 0em #f00, 3em 0 0 -1em #f00, 2em 2em 0 -1em #f00, 0 3em 0 -1em #f00, -2em 2em 0 -1em #f00, -3em 0 0 -1em #f00, -2em -2em 0 0 #f00;
+            }
+
+            12.5% {
+                box-shadow: 0 -3em 0 0 #f00, 2em -2em 0 0.2em #f00, 3em 0 0 0 #f00, 2em 2em 0 -1em #f00, 0 3em 0 -1em #f00, -2em 2em 0 -1em #f00, -3em 0 0 -1em #f00, -2em -2em 0 -1em #f00;
+            }
+
+            25% {
+                box-shadow: 0 -3em 0 -0.5em #f00, 2em -2em 0 0 #f00, 3em 0 0 0.2em #f00, 2em 2em 0 0 #f00, 0 3em 0 -1em #f00, -2em 2em 0 -1em #f00, -3em 0 0 -1em #f00, -2em -2em 0 -1em #f00;
+            }
+
+            37.5% {
+                box-shadow: 0 -3em 0 -1em #f00, 2em -2em 0 -1em #f00, 3em 0em 0 0 #f00, 2em 2em 0 0.2em #f00, 0 3em 0 0em #f00, -2em 2em 0 -1em #f00, -3em 0em 0 -1em #f00, -2em -2em 0 -1em #f00;
+            }
+
+            50% {
+                box-shadow: 0 -3em 0 -1em #f00, 2em -2em 0 -1em #f00, 3em 0 0 -1em #f00, 2em 2em 0 0em #f00, 0 3em 0 0.2em #f00, -2em 2em 0 0 #f00, -3em 0em 0 -1em #f00, -2em -2em 0 -1em #f00;
+            }
+
+            62.5% {
+                box-shadow: 0 -3em 0 -1em #f00, 2em -2em 0 -1em #f00, 3em 0 0 -1em #f00, 2em 2em 0 -1em #f00, 0 3em 0 0 #f00, -2em 2em 0 0.2em #f00, -3em 0 0 0 #f00, -2em -2em 0 -1em #f00;
+				}
+
+            75% {
+                box-shadow: 0em -3em 0 -1em #f00, 2em -2em 0 -1em #f00, 3em 0em 0 -1em #f00, 2em 2em 0 -1em #f00, 0 3em 0 -1em #f00, -2em 2em 0 0 #f00, -3em 0em 0 0.2em #f00, -2em -2em 0 0 #f00;
+            }
+
+            87.5% {
+                box-shadow: 0em -3em 0 0 #f00, 2em -2em 0 -1em #f00, 3em 0 0 -1em #f00, 2em 2em 0 -1em #f00, 0 3em 0 -1em #f00, -2em 2em 0 0 #f00, -3em 0em 0 0 #f00, -2em -2em 0 0.2em #f00;
+            }
+        }
+
+    </style>
+
+    <!--default values which is defined in most browsers by using CSS setings.-->
+    <!--one of the p element attributes in (align).it uses for setting that the paragraph should be started from each side(left,right,center,justify)-->
+    <style>
+        p {
+            margin-left: 0;
+            display: block;
+            margin-top: 1em;
+            margin-right: 0;
+            margin-bottom: 1em;
+        }
+    </style>
+
+    <meta name="GENERATOR" content="Microsoft Visual Studio">
+
+    <title>LiTCoMp</title>
+
+</HEAD>
+
+
+
+<body style="background-color: rgba(55,170,170,1.00);"><!--You have to use CSS syntax for background because background attribute is no more defined after html-5-->
+        <!--***Only Codes in this part will be displayed on screen***-->
+        
+        
+        
+        <!--<br> is a tag used for line breaks(enter and going to next line)-->
+        <!-- <strong> is a tag used bold and glamour text.-->
+        <!-- <sup> is a tag used whenever we need to show one part of text little bit upside of rest of the text.-->
+        <!-- <sub> is a tag used whenever we need to show one part of text little bit downside of rest of the text.-->
+        <!-- <deleted> shows that something is deleted or not corroct by making a diagonal line on the text.-->
+        <!-- <ins> show that something is inserted to the text by making a diagonal line under the text.-->
+		<!-- <pre> is a tag used whenever we want to show somehting exactly the same as we typed between this tag.-->        
+        <!-- <hr/> makes us a horizontal diagonal line which makes the page part from one to two.-->
+        <!-- <q> used whenever we want to show part of text between the quotation mark-->
+        
+        <!--<h1> this tag defines headings in code and have special attribute like with increasing the number of <h(number)>
+            the size of the headings coulde be changed like we can see in the code below!-->
+    <a name=" home">
+    </a>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <p><b>Tip:</b> Use h1 to h6 elements only for headings. Do not use them just to make text bold or big. Use other tags for that.</p>
+
+    <!--img tag defines image in an html page.images are not exactly inserted into an html page.actually they are linked to html pages.
+        by using the <img> tag we create a holding space for refrenced images!-->
+    <!--img tag has two important attributes 1.src="" 2.alt=""-->
+    <!--above there is codes about how to use images from different folder in local machine or different website which we want to use from one
+        of it's images,you can set the width and height of the images like you can see in the codes.-->
+    <p>Insert an image from another folder:</p>
+    <img src="./images/.gif" alt="Stickman" width="24" height="39">
+
+    <p>Insert an image from a web site:</p>
+    <img src="http://www.myWbSite.com/images/image.gif" alt="my_image" width="15" height="15">
+
+    <!--<p> tag defines a paragraph.-->
+    <!--browsers by default the add some space (margin) before and after each p element.the margin can be set dynamically by using the CSS margin
+        properties.-->
+    <p align="center">This is one paragraph and i want it to be at the center of the page</p>
+
+
+    <!--html forms are used to collect user inputs-->
+    <!--html forms contain elements which they're different types of input elements like (checkboxes,radio buttons,submit buttons and more
+        which are form elements.)-->
+    <!--<input> is one of the most important elements of form-->
+
+
+
+    <form action="action_page.php" method="post"></form>
+    <form action="action_page.php" method="get">
+        <!--
+            The action attribute defines the action to be performed when the form is submitted.
+            The common way to submit a form to a server, is by using a submit button.
+            Normally, the form is submitted to a web page on a web server.
+            In the example above, a server-side script is specified to handle the submitted form:
+            <form action="action_page.php">
+        -->
+        <!--
+            The method attribute specifies the HTTP method (GET or POST) to be used when submitting the forms:
+            you can read about when it's usual to use get or post in the internet whith such a elaboration read about special features of each one!
+        -->
+        Male <input type="radio" name="sex" value="male" checked>
+
+        <!--<br> is a tag used for line breaks(enter and going to next line)-->
+        <br>
+        First name:
+        <br>
+
+        <input type="text" value="any" name="firstname">
+        <br>
+
+        <!--The <ul> tag defines an unordered (*bulleted*) list.Use the <ul> tag together with the <li> tag to create unordered lists.-->
+
+        <p><b>PronounS:</b></p>
+        <!--dont use <br> tag here because <p> itself defines a unique paragraph with line break-->
+        <ul type="square">
+            <li>me</li>
+            <li>you</li>
+            <li>he</li>
+            <li>she</li>
+            <li>it</li>
+            <li>we</li>
+            <li>you</li>
+            <li>they</li>
+            <!--the list defined over whenever be displayed in every browser have one single bullet before.-->
+        </ul>
+
+
+    </form>
+
+    <form action="action_page.php" method="post" target="_blank" accept-charset="UTF-8"
+          enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+        .
+        form elements
+        .
+        <!--you can read about attributes of this form whith elaboration in the internet later!-->
+
+        <ul><p>This is the content for Layout P Tag</p>
+            <li type="circle">Coffee</li>
+            <ul type="circle">
+            <li>American coffee</li>
+            <li>english coffee</li>
+            </ul>
+            <li type="disc">Tea</li>
+            <li type="square">Milk</li>
+        </ul>
+
+        <ol type="I" start="3">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+
+        <!--below is the list of links to nowhere at this example-->
+        <!--except using (#home).actually in real web html it would be URLs.-->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+
+    </form>
+
+	<dl>
+    	<dt>Hand</dt>
+        <dd>Part of Human Body</dd>
+		<dt>foot</dt>
+        <dd>low Part of Human Body helping him in walking and running.</dd>
+	</dl>
+
+
+    <form action="do_nothing_for_now">
+        <p align="center">
+            <button name="nothing_button">any name</button>
+            <button name="nothing_button1">any name 1</button>
+        </p>
+    </form>
+
+    <!--div tag are used for defining a division or a section in an html document.
+        the div tag is also used to group block-element to format them with CSS.-->
+    <style>
+        .loader,
+        .loader:before,
+        .loader:after {
+            background: #f00;
+            -webkit-animation: load1 1s infinite ease-in-out;
+            animation: load1 1s infinite ease-in-out;
+            width: 1em;
+            height: 4em;
+        }
+
+            .loader:before,
+            .loader:after {
+                position: absolute;
+                top: 0;
+                content: '';
+            }
+
+            .loader:before {
+                left: -1.5em;
+                -webkit-animation-delay: -0.32s;
+                animation-delay: -0.32s;
+            }
+
+        .loader {
+            text-indent: -9999em;
+            margin: 88px auto;
+            position: relative;
+            font-size: 11px;
+            -webkit-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-animation-delay: -0.16s;
+            animation-delay: -0.16s;
+        }
+
+            .loader:after {
+                left: 1.5em;
+            }
+
+        @-webkit-keyframes load1 {
+            0%, 10%, 100% {
+                box-shadow: 0 0 #ffffff;
+                height: 4em;
+            }
+
+            40% {
+                box-shadow: 0 -2em #ffffff;
+                height: 5em;
+            }
+        }
+
+        @keyframes load1 {
+            0%, 10%, 100% {
+                box-shadow: 0 0 #ffffff;
+                height: 4em;
+            }
+
+            40% {
+                box-shadow: 0 -2em #ffffff;
+                height: 5em;
+            }
+        }
+    </style >
+    <div class="loader">Loading...</div><!-- this line runs the css style defined just befor this line -->
+    <div class="loader1" >Loading...</div>
+	
+</body>
+
+ </html>
