@@ -1,0 +1,6 @@
+<?php
+
+$con=mysql_connection("","","");
+
+
+?>
